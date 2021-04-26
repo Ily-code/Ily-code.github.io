@@ -1,0 +1,75 @@
+/* Make sure that padding behaves as expected */
+* {
+  box-sizing: border-box;
+}
+
+/* Container for skill bars */
+.containerskills {
+  width: 100%; /* Full width */
+  background-color: rgba(255, 255, 255, 0.777); /* Grey background */
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.skills-90p {
+  width: 90%;
+  background-color: #00af92;
+} /* Green */
+
+.skills-85p {
+  width: 85%;
+  background-color: #00af92;
+}
+
+.skills-80p {
+  width: 80%;
+  background-color: #00af92;
+}
+.skills-75p {
+  width: 75%;
+  background-color: #00af92;
+}
+.skills-70p {
+  width: 70%;
+  background-color: #00af92;
+}
+.skills-65p {
+  width: 65%;
+  background-color: #00af92;
+}
+.skills-60p {
+  width: 60%;
+  background-color: #00af92;
+}
+.skills-55p {
+  width: 55%;
+  background-color: #00af92;
+}
+.skills-50p {
+  width: 50%;
+  background-color: #00af92;
+}
+.skills-45p {
+  width: 45%;
+  background-color: #00af92;
+}
+.skills-40p {
+  width: 40%;
+  background-color: #00af92;
+}
+.skills-35p {
+  width: 35%;
+  background-color: #00af92;
+}
+.skills-30p {
+  width: 30%;
+  background-color: #00af92;
+}
+.skills-25p {
+  width: 25%;
+  background-color: #00af92;
+}
+.skills-20p {
+  width: 20%;
+  background-color: #00af92;
+}

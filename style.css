@@ -15,8 +15,3 @@ footer {
 section {
   padding-top: 5rem;
 }
-.input-form {
-  display: flex;
-  flex-direction: column-reverse;
-  margin: 1em 0;
-}
