@@ -26,6 +26,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" />
     <!-- aos -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- loading.io -->
+    <link rel="stylesheet" type="text/css" href="dist/loading-bar.css" />
+    <script type="text/javascript" src="dist/loading-bar.js"></script>
     <!-- my css -->
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="skills.css" />
@@ -59,7 +62,7 @@
     </nav>
     <!-- end navbar -->
     <!-- jumbotron  -->
-    <section class="jumbotron text-center text-white">
+    <section class="jumbotron text-center text-white col">
       <img src="img/icon.jpg" class="rounded-circle img-thumbnail" alt="Ilyasa" width="160" />
       <h1 class="display-4">Ilyasa Alharis</h1>
       <p class="lead"></p>
@@ -148,7 +151,7 @@
           <div class="col-md-6">HTML</div>
           <div class="col-md-6">
             <div class="containerskills">
-              <div class="p-3 skills-90p"></div>
+              <div class="p-3 skills-90p skills-bar"></div>
             </div>
           </div>
           <div class="col-md-6">
@@ -158,7 +161,7 @@
           <div class="col-md-6">
             <br />
             <div class="containerskills">
-              <div class="p-3 skills-80p"></div>
+              <div class="p-3 skills-80p skills-bar"></div>
             </div>
           </div>
           <div class="col-md-6">
@@ -168,7 +171,7 @@
           <div class="col-md-6">
             <br />
             <div class="containerskills">
-              <div class="p-3 skills-40p"></div>
+              <div class="p-3 skills-40p skills-bar"></div>
             </div>
           </div>
           <div class="col-md-6">
@@ -178,7 +181,7 @@
           <div class="col-md-6">
             <br />
             <div class="containerskills">
-              <div class="p-3 skills-50p"></div>
+              <div class="p-3 skills-50p skills-bar"></div>
             </div>
           </div>
           <!-- <div class="col-md-6">
@@ -333,13 +336,19 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       const galleryImage = document.querySelectorAll(".gallery-img");
-
+      const skillBar = document.querySelectorAll(".skills-bar");
       galleryImage.forEach((img, i) => {
         img.dataset.aos = "zoom-in";
         img.dataset.aosDelay = i * 100;
         img.dataset.aosDuration = 1000;
       });
-
+      skillBar.forEach((containerskills, i) => {
+        containerskills.dataset.aos = "fade-right";
+        containerskills.dataset.aosDelay = i * 100;
+        containerskills.dataset.aosDuration = 1000;
+        containerskills.dataset.aosOffset = 250;
+        containerskills.dataset.aosOnce = "true";
+      });
       AOS.init({
         offset: 250,
         duration: 1000,
