@@ -1,9 +1,13 @@
 .jumbotron {
   padding-top: 6rem;
   padding-bottom: 0rem;
-  padding-left: 0rem;
-  padding-right: 0rem;
-  background-color: #00cba9;
+  /* padding-left: 0rem;
+  padding-right: 0rem; */
+  background-color: #ffffff;
+}
+.responsive {
+  max-width: 100%;
+  height: auto;
 }
 #project {
   background-color: #00cba9;

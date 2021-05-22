@@ -36,7 +36,7 @@
 
   <body id="home">
     <!-- navbar -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark shadow-sm" style="background-color: #00a388">
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark shadow-sm" style="background-color: #00a388">
       <div class="container">
         <a class="navbar-brand" href="#">Ilyasa</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,9 +62,10 @@
     </nav>
     <!-- end navbar -->
     <!-- jumbotron  -->
-    <section class="jumbotron text-center text-white col">
-      <img src="img/icon.jpg" class="rounded-circle img-thumbnail" alt="Ilyasa" width="160" />
-      <h1 class="display-4">Ilyasa Alharis</h1>
+    <section class="jumbotron text-center text-white">
+      <!-- <img src="img/" class="rounded-circle img-thumbnail w-50 h-50" alt="Ilyasa" width="100" /> -->
+      <h1 class="displays4">Ilyasa Alharis</h1>
+      <!-- display-4 not work -->
       <p class="lead"></p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,320L480,96L960,320L1440,160L1440,320L960,320L480,320L0,320Z"></path></svg>
     </section>
@@ -363,7 +364,7 @@
       gsap.to(".lead", { duration: 1.5, delay: 2, text: "Student | Informatics Engineering" });
       gsap.from(".jumbotron img", { duration: 1, y: -100, opacity: 0, ease: "back" });
       gsap.from(".navbar", { duration: 1.5, y: "-100%", opacity: 0, ease: "power1" });
-      gsap.from(".display-4", { duration: 1, y: 50, opacity: 0, delay: 0.5, ease: "power1" });
+      gsap.from(".displays-4", { duration: 1, y: 50, opacity: 0, delay: 0.5, ease: "power1" });
     </script>
     <!-- my js -->
     <script>
