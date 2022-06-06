@@ -1,17 +1,13 @@
 .jumbotron {
-  /* padding-top: 6rem;
-  padding-bottom: 0rem;
-  padding-left: 0rem;
-  padding-right: 0rem; */
-  padding-top:2rem;
+  padding-top: 6rem;
   background-color: #00cba9;
 }
 div.example {
   background-color: lightgrey;
-  padding: 20px;
+  /* padding: 20px; */
 }
 
-@media screen and (min-width: 601px) {
+/* @media screen and (min-width: 601px) {
   div.example {
     font-size: 80px;
   }
@@ -21,16 +17,29 @@ div.example {
   div.example {
     font-size: 30px;
   }
-}
+} */
 #project {
+  background-color: #00cba9;
+}
+#homes {
+  background-color: #00cba9;
+}
+nav {
   background-color: #00cba9;
 }
 footer {
   background-color: #00cba9;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+#font2 {
+  font-color: #00cba9;
+  color: #00cba9;
 }
 
 section {
   padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .gallery-img {

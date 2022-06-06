@@ -6,7 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    /> -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
     <link rel="icon" type=" image/png" href="img/icon5.png" />
     <title>My Portofolio</title>
     <link href="css/bootstrap.min.css" rel="stylesheet" />
@@ -15,7 +26,10 @@
     <script src="js/bootstrap.js"></script>
 
     <!-- font -->
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu Mono" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu Mono"
+      rel="stylesheet"
+    />
     <style>
       body {
         font-family: "Ubuntu Mono";
@@ -23,7 +37,10 @@
       }
     </style>
     <!--bootstrap icon  -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+    />
     <!-- aos -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- loading.io -->
@@ -36,62 +53,103 @@
 
   <body id="home">
     <!-- navbar -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark shadow-sm bg-success" >
-      <div class=" container-md">
-      <a class="navbar-brand" href="#">Ilyasa</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#project">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark shadow-sm">
+      <div class="container">
+        <a class="navbar-brand" href="#">Ilyasa</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#project">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
     </nav>
     <!-- end navbar -->
     <!-- jumbotron  -->
-
-    <div class="jumbotron bg-success text-center text-white">
+    <section class="jumbotron text-center text-white" id="homes">
       <div class="row">
-        <div class="col"><img src="img/tesicon.jpg" class="img-thumbnail img-fluid rounded-circle w-25" alt="11" /></div>
+        <div class="col">
+          <img
+            src="img/tesicon.jpg"
+            width="200"
+            class="rounded-circle img-thumbnail"
+            alt="11"
+          />
+        </div>
       </div>
       <!-- <img src="img/tesicon.jpg" class="rounded-circle img-thumbnail img-fluid w-25" alt="Ilyasa" style="max-width: 100%; height: auto" /> -->
-      <h1 class="display-4">Ilyasa Alharis</h1>
+      <h1 class="">Ilyasa Alharis</h1>
       <p class="lead"></p>
       <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,320L480,96L960,320L1440,160L1440,320L960,320L480,320L0,320Z"></path></svg> -->
-    </div>
+    </section>
 
     <!-- end jumbotron -->
     <!-- about -->
     <section id="about">
-      <div class="container text-success">
-        <div class="row text-center mb-3">
+      <div class="container">
+        <div class="row text-center">
           <div class="col">
-            <h2>About me</h2>
+            <h2 id="font2">About me</h2>
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4" data-aos="fade-right" data-aos-offset="300" data-aos-duration="1000">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus neque distinctio perspiciatis enim. Quos unde tempora voluptates corrupti? Recusandae, impedit!</p>
+          <div
+            class="col-md-4"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-duration="1000"
+          >
+            <p id="font2">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Temporibus neque distinctio perspiciatis enim. Quos unde tempora
+              voluptates corrupti? Recusandae, impedit!
+            </p>
           </div>
-          <div class="col-md-4" data-aos="fade-left" data-aos-offset="300" data-aos-duration="1000" data-aos-delay="200">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint consequatur, pariatur a excepturi ipsam debitis illum eos, officiis, ad voluptatibus at reprehenderit aliquid ea accusantium!</p>
+          <div
+            class="col-md-4"
+            data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+          >
+            <p id="font2">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint
+              consequatur, pariatur a excepturi ipsam debitis illum eos,
+              officiis, ad voluptatibus at reprehenderit aliquid ea accusantium!
+            </p>
           </div>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#00cba9" fill-opacity="1" d="M0,320L480,96L960,288L1440,96L1440,320L960,320L480,320L0,320Z"></path></svg>
+      <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#00cba9"
+          fill-opacity="1"
+          d="M0,320L480,96L960,288L1440,96L1440,320L960,320L480,320L0,320Z"
+        ></path>
+      </svg> -->
     </section>
     <!-- end about -->
     <!-- project  -->
@@ -104,49 +162,54 @@
         </div>
         <div class="row justify-content-center text-success">
           <div class="col-md-4 mb-3">
-            <div class="card border-success" data-aos="flip-right" data-aos-duration="500">
-              <img src="project/1920x1080.png" class="card-img-top img-fluid" alt="project 1" />
+            <div
+              class="card h-100"
+              data-aos="flip-right"
+              data-aos-duration="500"
+              data-aos-delay="100"
+            >
+              <img
+                src="project/Politeknik.png"
+                class="card-img-top"
+                alt="img1"
+              />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title">Website Polibatam.ac.id</h5>
+                <p class="card-text">
+                  PBL (project-based learning) Website Development
+                  Polibatam.ac.id
+                </p>
+                <a
+                  href="https://if.polibatam.ac.id/pamerin/detail.php?id=MzMxMjAwMTA3Nw==&ta=Mg=="
+                  class="btn btn-success"
+                  >Go</a
+                >
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card border-success" data-aos="flip-right" data-aos-duration="500" data-aos-delay="100">
-              <img src="project/1920x1080.png" class="card-img-top img-fluid" alt="project 2" />
+            <div
+              class="card h-100"
+              data-aos="flip-right"
+              data-aos-duration="500"
+              data-aos-delay="200"
+            >
+              <img
+                src="project/1920x1080.png"
+                class="card-img-top"
+                alt="img1"
+              />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card border-success" data-aos="flip-right" data-aos-duration="500" data-aos-delay="200">
-              <img src="project/1920x1080.png" class="card-img-top img-fluid" alt="project 3" />
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card border-success" data-aos="flip-right" data-aos-duration="500" data-aos-delay="300">
-              <img src="project/1920x1080.png" class="card-img-top img-fluid" alt="project 4" />
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card border-success" data-aos="flip-right" data-aos-duration="500" data-aos-delay="400">
-              <img src="project/1920x1080.png" class="card-img-top img-fluid" alt="project 5" />
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title">Coming Soon</h5>
+                <p class="card-text">Coming Soon</p>
+                <a href="#" class="btn btn-success">Go</a>
               </div>
             </div>
           </div>
         </div>
       </div>
       <!-- skills -->
-      <div class="container text-white">
+      <!-- <div class="container text-white">
         <div class="row text-center mb-3">
           <div class="col">
             <h2>Skills</h2>
@@ -188,8 +251,8 @@
             <div class="containerskills">
               <div class="p-3 skills-50p skills-bar"></div>
             </div>
-          </div>
-          <!-- <div class="col-md-6">
+          </div> -->
+      <!-- <div class="col-md-6">
             <br />
             C
           </div>
@@ -229,10 +292,16 @@
               <div class="p-3 skills-70p"></div>
             </div>
           </div> -->
-        </div>
-      </div>
+      <!-- </div>
+      </div> -->
       <!-- end skills -->
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,160L360,320L720,160L1080,288L1440,64L1440,320L1080,320L720,320L360,320L0,320Z"></path></svg>
+      <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#fff"
+          fill-opacity="1"
+          d="M0,160L360,320L720,160L1080,288L1440,64L1440,320L1080,320L720,320L360,320L0,320Z"
+        ></path>
+      </svg> -->
     </section>
     <!-- end project -->
     <!-- gallery -->
@@ -243,54 +312,33 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-3">
-            <a href="">
-              <img src="img/gallery.png" class="img-thumbnail img-fluid gallery-img" alt="Gambar 1" />
-            </a>
-          </div>
-          <div class="col-md-3">
-            <a href="">
-              <img src="img/gallery.png" class="img-thumbnail img-fluid gallery-img" alt="Gambar 2" />
-            </a>
-          </div>
-          <div class="col-md-3">
-            <a href="">
-              <img src="img/gallery.png" class="img-thumbnail img-fluid gallery-img" alt="Gambar 3" />
-            </a>
-          </div>
-          <div class="col-md-3">
-            <a href="">
-              <img src="img/gallery.png" class="img-thumbnail img-fluid gallery-img" alt="Gambar 4" />
-            </a>
-          </div>
-          <div class="col-md-3">
-            <a href="">
-              <img src="img/gallery.png" class="img-thumbnail img-fluid gallery-img" alt="Gambar 5" />
-            </a>
-          </div>
-          <div class="col-md-3">
-            <a href="">
-              <img src="img/gallery.png" class="img-thumbnail img-fluid gallery-img" alt="Gambar 6" />
-            </a>
-          </div>
-          <div class="col-md-3">
-            <a href="">
-              <img src="img/gallery.png" class="img-thumbnail img-fluid gallery-img" alt="Gambar 7" />
-            </a>
-          </div>
-          <div class="col-md-3">
-            <a href="">
-              <img src="img/gallery.png" class="img-thumbnail img-fluid gallery-img" alt="Gambar 8" />
-            </a>
-          </div>
-          <div class="col-md-3">
-            <a href="">
-              <img src="img/gallery.png" class="img-thumbnail img-fluid gallery-img" alt="Gambar 9" />
-            </a>
-          </div>
-          <div class="col-md-3">
-            <a href="">
-              <img src="img/gallery.png" class="img-thumbnail img-fluid gallery-img" alt="Gambar 10" />
-            </a>
+            <!-- <a href="">
+              <img
+                src="img/gallery.png"
+                class="img-thumbnail img-fluid gallery-img"
+                alt="Gambar 1"
+              />
+            </a> -->
+            <!-- Trigger the Modal -->
+            <img
+              id="myImg"
+              src="img/gallery.png"
+              class="img-thumbnail img-fluid gallery-img"
+              alt="Gambar 1"
+              style="width: 100%; max-width: 300px"
+            />
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+              <!-- The Close Button -->
+              <span class="close">&times;</span>
+
+              <!-- Modal Content (The Image) -->
+              <img class="modal-content" id="img01" />
+
+              <!-- Modal Caption (Image Text) -->
+              <div id="caption"></div>
+            </div>
           </div>
         </div>
       </div>
@@ -304,38 +352,99 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-6">
-            <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+            <div
+              class="alert alert-success alert-dismissible fade show d-none my-alert"
+              role="alert"
+            >
               <strong>thank you </strong>your message has been sent
-              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="alert"
+                aria-label="Close"
+              ></button>
             </div>
             <form name="tes-contact-portofolio">
               <div class="mb-3 form-floating">
-                <input type="text" class="form-control border-success" id="name" aria-describedby="name" name="nama" required placeholder="name" />
+                <input
+                  type="text"
+                  class="form-control border-success"
+                  id="name"
+                  aria-describedby="name"
+                  name="nama"
+                  required
+                  placeholder="name"
+                />
                 <label for="name" class="form-label text-success">Name</label>
               </div>
               <div class="mb-3 form-floating">
-                <input type="email" class="form-control border-success" id="email" aria-describedby="email" name="email" required placeholder="email" />
-                <label for="email" class="form-label text-success">Email </label>
+                <input
+                  type="email"
+                  class="form-control border-success"
+                  id="email"
+                  aria-describedby="email"
+                  name="email"
+                  required
+                  placeholder="email"
+                />
+                <label for="email" class="form-label text-success"
+                  >Email
+                </label>
               </div>
               <div class="mb-3 form-floating">
-                <textarea class="form-control border-success" id="Pesan" rows="3" name="pesan" required placeholder="Leave a comment here" style="height: 100px"></textarea>
-                <label for="pesan" class="form-label text-success"> Message</label>
+                <textarea
+                  class="form-control border-success"
+                  id="Pesan"
+                  rows="3"
+                  name="pesan"
+                  required
+                  placeholder="Leave a comment here"
+                  style="height: 100px"
+                ></textarea>
+                <label for="pesan" class="form-label text-success">
+                  Message</label
+                >
               </div>
-              <button type="submit" class="btn btn-outline-success btn-kirim"><i class="bi bi-envelope-fill"></i>&nbsp; Send</button>
-              <button class="btn btn-success btn-loading d-none" type="button" disabled>
-                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+              <button type="submit" class="btn btn-outline-success btn-kirim">
+                <i class="bi bi-envelope-fill"></i>&nbsp; Send
+              </button>
+              <button
+                class="btn btn-success btn-loading d-none"
+                type="button"
+                disabled
+              >
+                <span
+                  class="spinner-border spinner-border-sm"
+                  role="status"
+                  aria-hidden="true"
+                ></span>
                 Loading...
               </button>
             </form>
           </div>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#00cba9" fill-opacity="1" d="M0,32L360,224L720,32L1080,192L1440,32L1440,320L1080,320L720,320L360,320L0,320Z"></path></svg>
+      <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#00cba9"
+          fill-opacity="1"
+          d="M0,32L360,224L720,32L1080,192L1440,32L1440,320L1080,320L720,320L360,320L0,320Z"
+        ></path>
+      </svg> -->
     </section>
     <!-- end contact -->
     <!-- Optional JavaScript; choose one of the two! -->
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script> -->
 
     <!-- aos -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -365,14 +474,19 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/TextPlugin.min.js"></script>
     <script>
       gsap.registerPlugin(TextPlugin);
-      gsap.to(".lead", { duration: 1.5, delay: 2, text: "Student | Informatics Engineering" });
+      gsap.to(".lead", {
+        duration: 1.5,
+        delay: 2,
+        text: "Student | Informatics Engineering",
+      });
       //gsap.from(".jumbotron img", { duration: 1, y: -100, opacity: 0, ease: "back" });
       //gsap.from(".navbar", { duration: 1.5, y: "-100%", opacity: 0, ease: "power1" });
-     // gsap.from(".display-4", { duration: 1, y: 50, opacity: 0, delay: 0.5, ease: "power1" });
+      // gsap.from(".display-4", { duration: 1, y: 50, opacity: 0, delay: 0.5, ease: "power1" });
     </script>
     <!-- my js -->
     <script>
-      const scriptURL = "https://script.google.com/macros/s/AKfycbwalvJzVXYy60f3d_gN7E6B4sbP8CoyiGe7pGwB6sHaz5_4WDSYUHTi2vPIC3VcXlrfJQ/exec";
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbwalvJzVXYy60f3d_gN7E6B4sbP8CoyiGe7pGwB6sHaz5_4WDSYUHTi2vPIC3VcXlrfJQ/exec";
       const form = document.forms["tes-contact-portofolio"];
       const btnKirim = document.querySelector(".btn-kirim");
       const btnLoading = document.querySelector(".btn-loading");
@@ -399,13 +513,28 @@
     </script>
     <!-- footer -->
     <footer class="text-white text-center">
-      <div class="container-fluid" data-aos="zoom-in" data-aos-offset="0" data-aos-delay="200" data-aos-duration="1000">
+      <div
+        class="container-fluid"
+        data-aos="zoom-in"
+        data-aos-offset="0"
+        data-aos-delay="200"
+        data-aos-duration="1000"
+      >
         <p>Find me on social media.</p>
         <p>
-          <a href=""><i class="bi bi-instagram text-white"></i></a>&nbsp; <a href=""><i class="bi bi-github text-white"></i></a>&nbsp; <a href=""><i class="bi bi-discord text-white"></i></a>&nbsp;
-          <a href=""><i class="bi bi-telegram text-white"></i></a>&nbsp; <a href=""><i class="bi bi-twitter text-white"></i></a>&nbsp;
+          <a href=""><i class="bi bi-instagram text-white"></i></a>&nbsp;
+          <a href="www.github.com/ily-code"
+            ><i class="bi bi-github text-white"></i></a
+          >&nbsp; <a href=""><i class="bi bi-discord text-white"></i></a>&nbsp;
+          <a href=""><i class="bi bi-telegram text-white"></i></a>&nbsp;
+          <a href=""><i class="bi bi-twitter text-white"></i></a>&nbsp;
         </p>
-        <p class="text-center">This website is made with <i class="bi bi-heart-fill text-danger"></i> by [ <a href="" class="text-white fw-bold"> Ilyasa Alharis </a>| 3312001077 ]</p>
+        <p class="text-center">
+          This website is made with
+          <!-- <i class="bi bi-heart-fill text-danger"></i> by [ -->
+          <a href="" class="text-white fw-bold"> Ilyasa Alharis </a>| 3312001077
+          ]
+        </p>
       </div>
     </footer>
     <!-- end fotter -->
