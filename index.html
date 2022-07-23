@@ -202,6 +202,40 @@
               class="card h-100"
               data-aos="flip-right"
               data-aos-duration="500"
+              data-aos-delay="100"
+            >
+              <img
+                src="project/tabel uapb.png"
+                class="card-img-top"
+                alt="img1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Inventory Management Web Application at Work Unit and
+                  Institutional Level that is Synchronized with SIMAK BMN
+                </h5>
+                <p class="card-text">
+                  PBL (project-based learning) Website Development. <br />
+                </p>
+                <a
+                  href="https://if.polibatam.ac.id/pamerin/detail.php?title=aplikasi-web-pengelolaan-persediaan-di-tingkat-unit-kerja-dan-institusi-yang-sinkron-dengan-simak-bmn&id=MzMxMjAwMTA4MQ==&ta=Mw=="
+                  class="btn btn-success"
+                  >Go for more info</a
+                >
+                <!-- <a
+                  href="https://www.figma.com/proto/tbzMa7SHX11COEY4uSDIjY/Layout-PBL-POLIBATAM?node-id=407%3A308&scaling=scale-down&page-id=0%3A1&starting-point-node-id=407%3A308"
+                  class="btn btn-success"
+                >
+                  Prototype</a
+                > -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div
+              class="card h-100"
+              data-aos="flip-right"
+              data-aos-duration="500"
               data-aos-delay="200"
             >
               <img
@@ -211,8 +245,8 @@
               />
               <div class="card-body">
                 <h5 class="card-title">Coming Soon</h5>
-                <p class="card-text">coming Soon</p>
-                <a href="#" class="btn btn-success">Go</a>
+                <!-- <p class="card-text">coming Soon</p>
+                <a href="#" class="btn btn-success">Go</a> -->
               </div>
             </div>
           </div>
@@ -365,6 +399,24 @@
               />
             </a>
           </div>
+          <div class="col-md-4 p-1">
+            <a href="img/certificate/command line progate.png">
+              <img
+                src="img/certificate/command line progate.png"
+                class="img-thumbnail img-fluid gallery-img w-auto h-auto"
+                alt="Gambar 3"
+              />
+            </a>
+          </div>
+          <div class="col-md-4 p-1">
+            <a href="img/certificate/html and css progate.png">
+              <img
+                src="img/certificate/html and css progate.png"
+                class="img-thumbnail img-fluid gallery-img w-auto h-auto"
+                alt="Gambar 3"
+              />
+            </a>
+          </div>
           <!-- <div class="col-md-4 p-1">
             <img
               src="img/gallery.png"
@@ -461,7 +513,9 @@
     <section id="contact">
       <div class="container">
         <div class="row text-center mb-3">
-          <div class="col text-success"><h2>Contact Me</h2></div>
+          <div class="col text-success">
+            <h2>Contact Me</h2>
+          </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-md-6">
@@ -610,7 +664,10 @@
         // tampil tombol loading ,hilangkan tombol kirim
         btnLoading.classList.toggle("d-none");
         btnKirim.classList.toggle("d-none");
-        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+        fetch(scriptURL, {
+          method: "POST",
+          body: new FormData(form),
+        })
           .then((response) => {
             // tampil tombol kirim ,hilangkan tombol loading
             btnLoading.classList.toggle("d-none");
@@ -636,11 +693,11 @@
         <p>Find me on social media.</p>
         <p>
           <!-- <a href=""><i class="bi bi-instagram text-white"></i></a>&nbsp; -->
-          <a href="https://github.com/ily-code"
+          <a href="https://github.com/ily-code" aria-label="github"
             ><i class="bi bi-github text-white"></i></a
           >&nbsp;
           <!-- <a href=""><i class="bi bi-discord text-white"></i></a>&nbsp; -->
-          <a href="https://t.me/IDplayer"
+          <a href="https://t.me/IDplayer" aria-label="telegram"
             ><i class="bi bi-telegram text-white"></i></a
           >&nbsp;
           <!-- <a href=""><i class="bi bi-twitter text-white"></i></a>&nbsp; -->
